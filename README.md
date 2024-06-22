@@ -46,10 +46,10 @@ Feel free to modify and extend the notebook to explore further aspects of the da
 
 
 ## Result Report
-- Ở câu 3 anh có kêu chúng em sử dụng GridSearchCV để tuning classification tuy nhiên vì điều kiện của thiết bị mà chúng em không thể chạy được nhiều parameters khác nhau trên cùng 1 thiết bị, thay vào chúng em đã chạy thử ở nhiều thiết bị và chọn ra 1 parameters tốt nhất để chạy trong file EDA.
+- In question 3, you asked us to use GridSearchCV for tuning classification, but due to the condition of the device, we could not run many different parameters on the same device, instead we tested it on multiple devices and selected the best parameter to run in the EDA file.
   
-- Trong Project này chúng em sử dụng 4 models chính là: KNeighborsClassifier, RandomForestClassifier, LogisticRegressionClassifier và MLP model. Và RandomForestClassifier cho ra kết quả tốt nhất:
-    + RandomForestClassifier cho kết quả tốt với độ chính xác cao và độ chính xác trong việc phân loại cả hai trường     hợp tích cực và tiêu cực.
-    + Nó trả về kết quả các chỉ số như accuracy, precision, recall và F1 - Score là tốt nhất.
+- In this project, we use 4 main models: KNeighborsClassifier, RandomForestClassifier, LogisticRegressionClassifier and MLP model. And RandomForestClassifier gives the best results:
+    + RandomForestClassifier gives good results with high accuracy and accuracy in classifying both positive and negative         cases.
+    + It returns the results of indicators such as accuracy, precision, recall and F1 - Score is the best.
 
-Tuy nhiên, dựa trên kết quả đánh giá, theo em các mô hình trên vẫn chưa đạt hiệu suất tốt nhất. Nếu được, em sử dụng CNN (Convolutional Neural Network) của thư viện TensorFlow để xây dựng một mô hình tốt hơn tuy nhiên vì một số lí do nên em không đủ thời gian để làm. Vì vậy, nếu phải lựa chọn một mô hình trong bốn mô hình nhóm em đã chọn, RandomForest sẽ là lựa chọn ưu tiên.
+However, based on the evaluation results, in my opinion, the above models have not yet achieved the best performance. If I could, I would use the TensorFlow library's CNN (Convolutional Neural Network) to build a better model, but for some reason, I didn't have enough time to do it. So, if I had to choose one of the four models my group chose, RandomForest would be the preferred choice.
