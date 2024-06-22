@@ -46,6 +46,8 @@ Feel free to modify and extend the notebook to explore further aspects of the da
 
 
 ## Result Report
+- Ở câu 3 anh có kêu chúng em sử dụng GridSearchCV để tuning classification tuy nhiên vì điều kiện của thiết bị mà chúng em không thể chạy được nhiều parameters khác nhau trên cùng 1 thiết bị, thay vào chúng em đã chạy thử ở nhiều thiết bị và chọn ra 1 parameters tốt nhất để chạy trong file EDA.
+  
 - Trong Project này chúng em sử dụng 4 models chính là: KNeighborsClassifier, RandomForestClassifier, LogisticRegressionClassifier và MLP model. Và RandomForestClassifier cho ra kết quả tốt nhất:
     + RandomForestClassifier cho kết quả tốt với độ chính xác cao và độ chính xác trong việc phân loại cả hai trường     hợp tích cực và tiêu cực.
     + Nó trả về kết quả các chỉ số như accuracy, precision, recall và F1 - Score là tốt nhất.
