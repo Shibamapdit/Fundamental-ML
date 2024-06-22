@@ -42,3 +42,12 @@ This project is designed to be completed in the following steps:
 
 
 Feel free to modify and extend the notebook to explore further aspects of the data and experiment with different algorithms. Good luck.
+
+
+
+## Result Report
+- Trong Project này chúng em sử dụng 4 models chính là: KNeighborsClassifier, RandomForestClassifier, LogisticRegressionClassifier và MLP model. Và RandomForestClassifier cho ra kết quả tốt nhất:
+    + RandomForestClassifier cho kết quả tốt với độ chính xác cao và độ chính xác trong việc phân loại cả hai trường     hợp tích cực và tiêu cực.
+    + Nó trả về kết quả các chỉ số như accuracy, precision, recall và F1 - Score là tốt nhất.
+
+Tuy nhiên, dựa trên kết quả đánh giá, theo em các mô hình trên vẫn chưa đạt hiệu suất tốt nhất. Nếu được, em sử dụng CNN (Convolutional Neural Network) của thư viện TensorFlow để xây dựng một mô hình tốt hơn tuy nhiên vì một số lí do nên em không đủ thời gian để làm. Vì vậy, nếu phải lựa chọn một mô hình trong bốn mô hình nhóm em đã chọn, RandomForest sẽ là lựa chọn ưu tiên.
